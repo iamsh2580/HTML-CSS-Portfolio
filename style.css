@@ -1,0 +1,59 @@
+body{
+    background-color: #e0e5f2;
+    
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+/* home */
+
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+.navigator{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #7f838f;  
+    justify-content: space-between;
+}
+.site-name{
+    font-size: 30px;
+    margin-top:0px;
+    margin-bottom: 15px;
+
+    color: black;
+}
+
+.site-name:hover{
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+li{
+    list-style: none;
+    margin-right: 15px;
+
+    display: inline;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.intro-sector{
+    text-align: center;
+    font-size: 25px;
+    font-weight:400;
+    letter-spacing: 1px;
+    line-height: 60px;
+
+    margin: 100px;
+    color: #7f838f;
+}
+.name-highlight{
+    background-color: #8aacc8;
+}
