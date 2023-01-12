@@ -130,3 +130,42 @@ a[title="down-arrow icons"]{
     font-size: 15px;
     text-align: center;
 }
+
+/* Info.html */
+.info-pf-sector{
+
+}
+.info-pf-list{
+
+    align-content: center;
+    justify-content: center;
+ 
+    
+}
+.info-intro{
+    font-weight: 300;
+    font-size: 30px;
+}
+.info-intro-name{
+    background-color: #8aacc8;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.info-pf-list>img{
+    width: 25%;
+    border-radius: 30%;
+}
+.info-icon{
+
+}
+.info-icon>img{
+    width: 5%;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.info-tech-icon>img{
+    width: 5%;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
