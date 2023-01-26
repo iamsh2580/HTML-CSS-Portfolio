@@ -75,15 +75,16 @@ a:hover{
     justify-content: center;
 
     background-color: white;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 50px 0px ;
+    margin: 0px 20px;
 }
 
 .portfolio{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    padding:30px;
     margin-bottom: 50px;
 }
 
@@ -110,14 +111,12 @@ a:hover{
 .contact-menu{
     display: flex;
     flex-direction: column;
-    
     text-align: center;
+    justify-content: center;
 
     
 }
-button{
-    width: 70px;
-}
+
 
 /* footer */
 footer{
@@ -165,7 +164,7 @@ justify-content: center;
 }
 
 .info-icon>img{
-    width: 4%;
+    width: 8%;
     margin:10px 10px;
 }
 .info-icon-list{
@@ -195,4 +194,83 @@ justify-content: center;
 
 .sh_intro{
     color:black;
+}
+
+/* footer */
+input[type=text]{
+    margin-left:15px;
+    padding-left: 10px;
+       background-color:#e0e5f2;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 3px solid #7f838f;
+}
+
+
+/* GENERAL BUTTON STYLING */
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2em auto;
+  padding: 0.5em 1.5em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color:#8aacc8;
+}
+/* BUTTON 5 */
+.btn-5 {
+    overflow: hidden;
+  }
+  
+  .btn-5::after {
+    /*background-color: #f00;*/
+    height: 100%;
+    left: -35%;
+    top: 0;
+    transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+  }
+  
+  .btn-5:hover:after {
+    height: 100%;
+    width: 135%;
+  }
+
+/* Portfolio */
+.pf-list-name{
+    text-align: center;
+    font-size: 30px;
+    color: #7f838f;
+}
+.pf-used-tech{
+    text-align: center;
+    color: #7f838f;
+    
 }
